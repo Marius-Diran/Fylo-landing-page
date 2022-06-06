@@ -18,7 +18,7 @@ body{
     display: flex;
     align-items: center;
     max-width: fit-content;
-    margin: -5.5vh 0 0 75vw;
+    margin: -5.5vh 0 0 70vw;
 }
 
 .list_items ul{
@@ -28,4 +28,17 @@ body{
 .list_items ul li{
     padding: 0 4vw 0 0;
     display: inline-block;
+}
+
+#first_template{
+    margin: 15vh 0 0 0;
+}
+
+#first_template h1{
+    width: 35%;
+    margin: 0 0 4vh 3vw; 
+}
+
+#first_template p{
+    
 }
