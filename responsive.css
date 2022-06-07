@@ -1,0 +1,14 @@
+@media (max-width: 500px){
+    #nav-bar{
+        margin: 0 auto;
+    }
+
+    .logo{
+        width: 25%;
+    }
+
+    .list_items{
+        border: 1px solid red;
+        margin: -6vh 0 0 40vw;
+    }
+}
