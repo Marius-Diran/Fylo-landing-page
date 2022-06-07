@@ -11,3 +11,78 @@ body{
     font-family: 'Open Sans', sans-serif;
     height: 200vh;
 }
+
+#main-nav{
+    margin: 4vh auto;
+}
+
+.container{
+    width: 95%;
+    margin: auto;
+}
+
+.logo{
+    margin: 1vh auto;
+}
+
+.list_one{
+    display: flex;
+    float: right;
+    margin: 2vh auto;
+}
+
+.list_one ul{
+    list-style: none;
+}
+
+.list_one ul li{
+    font-family: 'Raleway', sans-serif;
+    padding: 0 2vw 0 2vw;
+    display: inline-block;
+}
+
+#main{
+    margin: 20vh auto;
+}
+
+.vector1{
+    width: 40%;
+    float: right;
+    box-sizing: border-box;
+}
+
+.main-content{
+    margin: 15vh auto;
+    float: left;
+    width: 60%;
+    box-sizing: border-box;
+}
+
+.main-content h1{
+    width: 70%;
+    font-family: 'Raleway', sans-serif;
+    padding: 2vh 0;
+}
+
+.main-content p{
+    width: 70%;
+    padding: 2vh 0 3vh 0;
+}
+
+.my-form input[type="text"]{
+    width: 35%;
+    height: 5vh;
+    border: 1px solid hsl(0, 0%, 59%);
+    padding: 0 1vw;
+    border-radius: 3px;
+    margin: 0 1vw 0 0;
+}
+
+.button{
+    width: 25%;
+    height: 5.5vh;
+    border: 1px solid;
+    border-radius: 3px;
+    background-color: hsl(224, 93%, 58%);
+    color: hsl(0, 0%, 100%);
+}
