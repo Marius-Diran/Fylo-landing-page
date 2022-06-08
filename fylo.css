@@ -99,7 +99,9 @@ body{
 }
 
 .mobile-curve{
-    display: none;
+    margin: -14vh 0 0 0;
+    width: 100%;
+    visibility: hidden;
 }
 
 .vector2{

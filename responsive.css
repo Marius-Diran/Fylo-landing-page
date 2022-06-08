@@ -27,13 +27,14 @@
 
     .main-content h1{
         margin: 0 auto;
-        font-size: 6vw;
-        max-width: 70%;
+        font-size: 5vw;
+        max-width: 80%;
         text-align: center;
     }
 
     .main-content p{
-        width: 70%;
+        font-size: 3.5vw;
+        width: 80%;
         margin: 0 auto;
         text-align: center;
     }
@@ -50,6 +51,20 @@
         display: block;
         text-align: center;
         margin: 0 auto;
+    }
+
+    #section{
+        margin: 30vh 0 0 0;
+    }
+
+    .desktop-curve{
+        display: none;
+    }
+
+    .mobile-curve{
+        visibility: visible;
+        width: 100%;
+        margin: -50vh 0 0 0;
     }
     
 }
