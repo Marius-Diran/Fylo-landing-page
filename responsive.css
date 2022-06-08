@@ -27,8 +27,8 @@
 
     .main-content h1{
         margin: 0 auto;
-        font-size: 1.5rem;
-        min-width: 70%;
+        font-size: 6vw;
+        max-width: 70%;
         text-align: center;
     }
 
@@ -51,4 +51,5 @@
         text-align: center;
         margin: 0 auto;
     }
+    
 }

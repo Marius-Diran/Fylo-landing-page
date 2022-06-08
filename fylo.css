@@ -9,7 +9,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    height: 200vh;
+    height: 300vh;
 }
 
 #main-nav{
@@ -42,18 +42,18 @@ body{
 }
 
 #main{
-    margin: 20vh auto;
+    margin: 15vh auto;
 }
 
 .vector1{
+    margin: -10vh 0;
     width: 40%;
     float: right;
     box-sizing: border-box;
 }
 
 .main-content{
-    margin: 15vh auto;
-    float: left;
+    margin: 15vh 0;
     width: 60%;
     box-sizing: border-box;
 }
@@ -82,6 +82,133 @@ body{
     width: 25%;
     height: 5.5vh;
     border: 1px solid;
+    border-radius: 3px;
+    background-color: hsl(224, 93%, 58%);
+    color: hsl(0, 0%, 100%);
+}
+
+#section{
+    margin: 50vh 0 0 0;
+    background-color: hsl(240, 75%, 98%);
+    height: 100vh;
+}
+
+.desktop-curve{
+    margin: -14vh 0 0 0;
+    width: 100%;
+}
+
+.mobile-curve{
+    display: none;
+}
+
+.vector2{
+    width: 40%;
+    float: right;
+    margin: 8vh 0;
+}
+
+.section-content{
+    width: 60%;
+}
+
+.section-content h1{
+    font-size: 2.3rem;
+    margin: 4vh 0;
+}
+
+.section-content p{
+    width: 70%;
+    margin: 4vh 0;
+}
+
+.section-content .p-1{
+    max-width: 22%;
+    color: hsl(170, 45%, 43%);
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+}
+
+.arrow{
+    position: relative;
+    top: 0.5vh;
+    left: 0.5vw;
+}
+
+.article{
+    background: hsl(0, 0%, 100%);
+    box-shadow: 0 4px 15px hsla(0, 0%, 0%, 0.7);
+    width: 35%;
+    height: 35vh;
+}
+
+.quote{
+    padding: 2vh 0 0 2vw;
+}
+
+.article p{
+    padding: 0 0 0 2vw;
+    width: 70%;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+
+.avatar{
+    margin: 4vh 0 0 2vw;
+    width: 10%;
+    border-radius: 100px;
+}
+
+.article .side-talk{
+    margin: -7vh 0 0 4vw;
+}
+
+.article .side-talk p{
+    font-size: 0.7rem;
+    line-height: 1.4rem;
+}
+
+.article .side-talk .p-1{
+    font-weight: 700;
+}
+
+.second-sec{
+    background-color: hsl(238, 22%, 44%);
+    height: 45vh;
+}
+
+.second_sec-content h2{
+    color: hsl(0, 0%, 100%);
+    font-size: 2rem;
+    padding: 10vh 0 0 0;
+}
+
+.second_sec-content p{
+    color: hsl(0, 0%, 100%);
+    width: 38%;
+    padding: 4vh 0 0 0;
+}
+
+.my-form2{
+    width: 30%;
+    float: right;
+    margin: -15vh 5vw 0 0;
+}
+
+.my-form2 input[type="text"]{
+    display: block;
+    width: 100%;
+    height: 7vh;
+    border: 1px solid hsl(0, 0%, 59%);
+    border-radius: 3px;
+    margin: 0 0 2vh 0;
+    padding: 0 1vw;
+}
+
+.button2{
+    text-align: center;
+    width: 50%;
+    border: 1px solid hsl(224, 93%, 58%);
+    height: 7vh;
     border-radius: 3px;
     background-color: hsl(224, 93%, 58%);
     color: hsl(0, 0%, 100%);
