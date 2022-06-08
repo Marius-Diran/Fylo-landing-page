@@ -213,3 +213,35 @@ body{
     background-color: hsl(224, 93%, 58%);
     color: hsl(0, 0%, 100%);
 }
+
+#footer{
+    background-color: hsl(243, 87%, 12%);
+    height: 60vh;
+}
+
+.logo-2{
+    padding: 15vh 0 4vh 0;
+}
+
+.phone-icon{
+    padding: 0 1.5vw 0 0;
+}
+
+
+.email-icon{
+    padding: 0 1.5vw 0 0;
+}
+
+.footer-content .p-1{
+    color: hsl(0, 0%, 100%);
+    display: inline-block;
+    width: fit-content;
+    margin: 0 70vw 0 0;
+}
+
+.footer-content .p-2{
+    color: hsl(0, 0%, 100%);
+    display: inline-block;
+    width: fit-content;
+    margin: 3vh 70vw 0 0;
+}
