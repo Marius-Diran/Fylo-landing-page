@@ -41,6 +41,7 @@
 
     .my-form input[type="text"]{
         width: 70%;
+        height: 7vh;
         display: block;
         margin: 1vh auto;
         text-align: center;
@@ -48,6 +49,7 @@
 
     .button{
         width: 70%;
+        height: 7vh;
         display: block;
         text-align: center;
         margin: 0 auto;
@@ -55,6 +57,7 @@
 
     #section{
         margin: 30vh 0 0 0;
+        height: 250vh
     }
 
     .desktop-curve{
@@ -66,5 +69,92 @@
         width: 100%;
         margin: -50vh 0 0 0;
     }
+
+    .vector2{
+        width: 100%;
+        float: none;
+    }
+
+    .section-content{
+        width: 100%;
+        margin: 15vh 0;
+    }
+
+    .section-content h1{
+        font-size: 5vw;
+        text-align: center;
+        width: 100%;
+    }
+
+    .section-content p{
+        color: hsl(0, 0%, 41%);
+        width: 90%;
+        font-size: 3.7vw;
+    }
+
+    .section-content .p-1{
+        max-width: 40%;
+        margin: 10vh auto;
+    }
+
+    .article{
+        border-radius: 4px;
+        width: 90%;
+        height: 50vh;
+        margin: 0 auto;
+    }
     
+    .quote{
+        padding: 6vh 0 0 6vw;
+    }
+
+    .article p{
+        width: 90%;
+        font-size: 3.2vw;
+        padding: 2vh 0 0 6vw;
+    }
+
+    .avatar{
+        margin: 4vh 0 0 6vw;
+    }
+
+    .article .side-talk{
+        margin: -9vh 0 0 11vw;
+    }
+
+    .article .side-talk p{
+        font-size: 2.4vw;
+        line-height: 0.6rem;
+    }
+
+    .second-sec{
+        height: 90vh;
+    }
+
+    .second_sec-content h2{
+        font-size: 6.5vw;
+        text-align: center;
+    }
+
+    .second_sec-content p{
+        font-size: 4vw;
+        text-align: center;
+        width: 85%;
+        margin: 2vh auto;
+    }
+
+    .my-form2{
+        float: none;
+        width: 80%;
+        margin: 6vh auto;
+    }
+
+    .my-form2 input[type="text"]{
+        text-align: center;
+    }
+
+    .button2{
+        width: 100%;
+        text-align: center;
+    }
 }
