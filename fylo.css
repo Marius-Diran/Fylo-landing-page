@@ -90,7 +90,7 @@ body{
 #section{
     margin: 50vh 0 0 0;
     background-color: hsl(240, 75%, 98%);
-    height: 100vh;
+    height: 120vh;
 }
 
 .desktop-curve{
@@ -222,10 +222,12 @@ body{
 }
 
 .logo-2{
+    display: inline-block;
     padding: 15vh 0 4vh 0;
 }
 
 .phone-icon{
+    display: inline-block;
     padding: 0 1.5vw 0 0;
 }
 
@@ -246,4 +248,71 @@ body{
     display: inline-block;
     width: fit-content;
     margin: 3vh 70vw 0 0;
+}
+
+#footer{
+    height: 100vh;
+}
+
+.li1{
+    margin: -8vh 0 0 30vw;
+    width: fit-content; 
+}
+
+.li1 ul{
+    list-style: none;
+}
+
+.li1 ul li{
+    color: hsl(0, 0%, 100%);
+    padding: 0 0 3vh 0;
+    font-size: 1.1rem;
+}
+
+.li2{
+    margin: -27vh 0 0 50vw;
+    width: fit-content; 
+}
+
+.li2 ul{
+    list-style: none;
+}
+
+.li2 ul li{
+    color: hsl(0, 0%, 100%);
+    padding: 0 0 3vh 0;
+    font-size: 1.1rem;
+}
+
+.li-icon{
+    margin: -20vh 0 0 60vw;
+}
+
+.li-icon ul{
+    list-style: none;
+}
+
+.li-icon ul li{
+    border: 1px solid white;
+    border-radius: 100rem;
+    width: 2.6rem;
+    height: 2.6rem;
+    position: relative;
+    left: 7rem;
+    margin: 0 0 0 1rem;
+    display: inline-block;
+}
+
+.li-icon ul li img{
+    position: absolute;
+    top: 0.4rem;
+    left: 0.4rem;
+}
+
+.li-icon ul li:hover{
+    border: 1px solid hsl(224, 93%, 58%);
+}
+
+.li-icon ul li img:hover{
+    filter: invert(40%) sepia(76%) saturate(5052%) hue-rotate(218deg) brightness(99%) contrast(97%);
 }

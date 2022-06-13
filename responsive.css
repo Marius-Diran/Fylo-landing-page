@@ -1,4 +1,4 @@
-@media (max-width: 500px){
+@media (max-width: 450px){
     #nav-bar{
         margin: 0 auto;
     }
@@ -57,7 +57,7 @@
 
     #section{
         margin: 30vh 0 0 0;
-        height: 250vh
+        height: 210vh;
     }
 
     .desktop-curve{
@@ -119,12 +119,16 @@
     }
 
     .article .side-talk{
-        margin: -9vh 0 0 11vw;
+        margin: -5vh 0 0 11vw;
     }
 
     .article .side-talk p{
         font-size: 2.4vw;
-        line-height: 0.6rem;
+        line-height: 0;
+    }
+
+    .article .side-talk .p-1{
+        padding: 0vh 0 0.5vh 6vw;
     }
 
     .second-sec{
