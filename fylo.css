@@ -218,10 +218,11 @@ body{
 
 #footer{
     background-color: hsl(243, 87%, 12%);
-    height: 60vh;
+    height: 80vh;
 }
 
 .logo-2{
+    filter: invert(100%) sepia(0%) saturate(7485%) hue-rotate(261deg) brightness(103%) contrast(105%);
     display: inline-block;
     padding: 15vh 0 4vh 0;
 }
@@ -248,10 +249,6 @@ body{
     display: inline-block;
     width: fit-content;
     margin: 3vh 70vw 0 0;
-}
-
-#footer{
-    height: 100vh;
 }
 
 .li1{

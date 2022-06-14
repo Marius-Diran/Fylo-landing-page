@@ -163,6 +163,42 @@
     }
 
     #footer{
-        display: none;
+        height: 140vh;
+    }
+
+    .logo-2{
+        margin: 0 0 0 10vw;
+    }
+
+    .phone-icon{
+        padding: 0 5vw 0 0;
+    }
+
+    .email-icon{
+        padding: 0 5vw 0 0;
+    }
+
+    .footer-content .p-1{
+        font-size: 4vw;
+        width: 60%;
+        margin: 0 10vw;
+    }
+
+    .footer-content .p-2{
+        font-size: 4vw;
+        width: 60%;
+        margin: 4vh 10vw;
+    }
+
+    .li1{
+        margin: 10vh 10vw;
+    }
+
+    .li2{
+        margin: 0 10vw;
+    }
+
+    .li-icon{
+        margin: 10vh 0 0 -10vw;
     }
 }
