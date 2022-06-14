@@ -202,3 +202,9 @@
         margin: 10vh 0 0 -10vw;
     }
 }
+
+@media (max-width: 367px){
+    .arrow{
+        width: 10%;
+    }
+}
